@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-  --primary-color: #EF4444;
+  --primary-color: #FEF3C7;
   --secondary-color: #6B7280;
-  --off-white: #F8F0E3;
+  --off-white: #FFFBEB;
 }
 
 body {
+  background-color: #FCD34D;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -19,7 +20,9 @@ header {
   padding: 2rem;
   text-align: center;
   font-size: 40px;
-  color: var(--off-white);
+  border: 1px solid black;
+  border-top: none;
+  /* color: var(--off-white); */
 }
 
 textarea {
@@ -27,29 +30,34 @@ textarea {
   height: 20vh;
   padding: 2rem;
   display: block;
+  border-radius: 2rem;
   margin: 2rem auto;
-  border: solid 1px var(--primary-color);
+  background-color: var(--off-white);
+  border: 1px solid black;
 }
 
 button {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 1rem;
   border-radius: 1rem;
   margin: 2rem auto;
   margin-top: 0rem;
   display: block;
-  color: white;
+  /* color: white; */
   border: 2px solid black;
 }
 
 .output-feild {
   padding: 2rem;
   width: 70%;
+  border-radius: 2rem;
   height: 20vh;
   border: solid 1px var(--primary-color);
   margin: 2rem auto;
   margin-top: 0rem;
   display: block;
+  border: 1px solid black;
+  background-color: var(--off-white);
 }
 
 
@@ -63,7 +71,9 @@ button {
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   /* max-width: 70rem; */
-  color: var(--off-white);
+  /* color: var(--off-white); */
+  border: 1px solid black;
+  border-bottom: none;
   text-align: center;
 }
 
@@ -95,6 +105,8 @@ button {
   max-width: 500px;
   margin: 0rem auto;
   margin-bottom: 2rem;
+  text-align: justify;
+
 }
 
 .instruction .emoticon {
@@ -103,5 +115,5 @@ button {
 }
 
 .instruction {
-  margin-left: 11%;
+  text-align: center;
 }
