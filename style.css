@@ -95,6 +95,11 @@ button {
   display: inline;
 }
 
+.link-style {
+  text-decoration: none;
+  color: var(--off-white);
+}
+
 .footer .img-social {
   width: 2rem;
   margin: 0rem 3%;
