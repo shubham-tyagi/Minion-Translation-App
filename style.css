@@ -44,6 +44,7 @@ button {
   margin-top: 0rem;
   display: block;
   /* color: white; */
+  cursor: pointer;
   border: 2px solid black;
 }
 
